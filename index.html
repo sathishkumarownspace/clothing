@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fcfaf7">
+    <meta name="description" content="Premium innerwear, sleepwear, and loungewear for the whole family. Comfort from Delux Hosieries, serving the community since 1989.">
+    <title>Delux Hosieries | Premium Comfort Wear</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body id="top">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Delux Hosieries home">
+        <span class="brand-mark">D</span>
+        <span class="brand-copy">
+          <span class="brand-name">DELUX HOSIERIES</span>
+          <span class="brand-tagline">Premium Comfort Wear</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle icon-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+        <a class="active" href="#top">Home</a>
+        <a href="#categories">Men</a>
+        <a href="#categories">Women</a>
+        <a href="#categories">Kids</a>
+        <a href="#brands">Brands</a>
+        <a class="offer-link" href="#special-offer">Special Offers</a>
+      </nav>
+
+      <div class="header-actions">
+        <label class="search-box">
+          <img src="assets/search.svg" alt="" width="16" height="16">
+          <input id="product-search" type="search" placeholder="Search essentials..." aria-label="Search products">
+        </label>
+        <button class="search-toggle icon-button" type="button" aria-label="Open search" aria-expanded="false" aria-controls="product-search">
+          <img src="assets/search.svg" alt="" width="18" height="18">
+        </button>
+        <button class="icon-button favorite-button" type="button" aria-label="Show favorites" aria-pressed="false">
+          <img src="assets/heart.svg" alt="" width="20" height="20">
+        </button>
+        <button class="icon-button cart-button" type="button" aria-label="Shopping bag, 0 items">
+          <img src="assets/shopping-bag.svg" alt="" width="20" height="20">
+          <span class="cart-count" aria-live="polite">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><img src="assets/sparkles.svg" alt="" width="14" height="14"> Established 1989 <span aria-hidden="true">/</span> Multi-brand hub</p>
+          <h1 id="hero-title">Everyday comfort starts from within.</h1>
+          <p class="hero-description">Your one-stop destination for premium innerwear, cozy nighties, sportswear, and relaxed loungewear for men and women. Bringing you the finest fabrics from trusted heritage brands.</p>
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#bestsellers">Shop Best Sellers <img src="assets/arrow-right.svg" alt="" width="18" height="18"></a>
+            <a class="button button-secondary" href="#store">Locate Our Store <img src="assets/map-pin.svg" alt="" width="18" height="18"></a>
+          </div>
+          <div class="metrics" aria-label="Delux Hosieries at a glance">
+            <div><strong>10+</strong><span>Premium Brands</span></div>
+            <div><strong>100%</strong><span>Combed Cotton</span></div>
+            <div><strong>50k+</strong><span>Happy Families</span></div>
+          </div>
+        </div>
+        <div class="hero-gallery" aria-label="Comfort for every part of the day">
+          <img class="hero-image-main" src="assets/hero-main.jpg" alt="A sunlit bedroom with soft, comfortable bedding" fetchpriority="high">
+          <div class="hero-image-stack">
+            <img src="assets/hero-detail-one.jpg" alt="Soft neutral clothing arranged in a wardrobe">
+            <img src="assets/hero-detail-two.jpg" alt="A relaxed homewear look in a warm bedroom">
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Why shop with Delux Hosieries">
+        <div class="trust-grid section-shell">
+          <article class="trust-item"><span class="trust-icon"><img src="assets/shield-check.svg" alt="" width="24" height="24"></span><span><strong>Premium Fabric Cert</strong><small>100% skin-friendly combed cotton and stretch modal fabrics.</small></span></article>
+          <article class="trust-item"><span class="trust-icon"><img src="assets/award.svg" alt="" width="24" height="24"></span><span><strong>Multi-Brand Trust</strong><small>Authorized dealers for Jockey, Lux Cozi, Dixcy Scott, Rupa and more.</small></span></article>
+          <article class="trust-item"><span class="trust-icon"><img src="assets/refresh.svg" alt="" width="24" height="24"></span><span><strong>Easy Size Swaps</strong><small>Worry-free returns and size replacements within 14 days.</small></span></article>
+          <article class="trust-item"><span class="trust-icon"><img src="assets/thumbs-up.svg" alt="" width="24" height="24"></span><span><strong>Family Favorites</strong><small>Handpicked selections for everyone, from toddlers to grandparents.</small></span></article>
+        </div>
+      </section>
+
+      <section class="categories section-shell" id="categories" aria-labelledby="categories-title">
+        <div class="section-heading">
+          <p class="eyebrow">Department directory</p>
+          <h2 id="categories-title">Find your perfect fit by category</h2>
+          <p>Explore our comprehensive collection curated for seasonal warmth, daily resilience, and nocturnal ease.</p>
+        </div>
+        <div class="category-grid">
+          <a class="category-card" href="#bestsellers"><img src="assets/category-men.jpg" alt="Men's everyday essentials"><span><strong>Men's Undergarments</strong><small>Briefs, trunks, vests, and premium boxers</small></span></a>
+          <a class="category-card" href="#bestsellers"><img src="assets/category-women.jpg" alt="Soft women's innerwear"><span><strong>Ladies Undergarments</strong><small>Seamless bras, slips, active shapewear and panties</small></span></a>
+          <a class="category-card" href="#bestsellers"><img src="assets/category-nightwear.jpg" alt="A collection of cozy nightwear"><span><strong>Cozy Nighties</strong><small>Comfortable slips, long gown sleepwear and nighties</small></span></a>
+          <a class="category-card category-card-wide" href="#bestsellers"><img src="assets/category-joggers.jpg" alt="Comfortable track pants and joggers"><span><strong>Track Pants &amp; Joggers</strong><small>Breathable knit fabrics for workouts or lounging</small></span></a>
+          <a class="category-card category-card-wide" href="#bestsellers"><img src="assets/category-tshirts.jpg" alt="Colorful everyday t-shirts"><span><strong>Everyday T-Shirts</strong><small>Classic crewnecks, polo tees, and active layers</small></span></a>
+        </div>
+      </section>
+
+      <section class="bestsellers" id="bestsellers" aria-labelledby="bestsellers-title">
+        <div class="section-shell">
+          <div class="section-heading heading-with-action">
+            <div>
+              <p class="eyebrow">Our weekly selections</p>
+              <h2 id="bestsellers-title">Bestsellers &amp; fresh arrivals</h2>
+              <p>Customer favorites backed by repeat orders. Stocked fresh every Thursday with standard-certified quality.</p>
+            </div>
+            <a class="button button-secondary catalog-link" href="#categories">View Full Catalog <img src="assets/arrow-right-dark.svg" alt="" width="18" height="18"></a>
+          </div>
+          <div class="product-grid" id="product-grid">
+            <article class="product-card" data-search="jockey modern classic trunk briefs innerwear">
+              <div class="product-image"><img src="assets/product-trunks.jpg" alt="Jockey Modern Classic Trunk three-pack" loading="lazy"><span class="product-tag tag-teal">Best seller</span></div>
+              <div class="product-info"><div class="product-meta"><span>Jockey</span><span class="rating"><img src="assets/star.svg" alt="" width="14" height="14"> 4.8</span></div><h3>Modern Classic Trunk (3-Pack)</h3><div class="product-bottom"><strong>$18.50</strong><button class="add-button" type="button" data-add="Modern Classic Trunk"><img src="assets/shopping-cart.svg" alt="" width="14" height="14"> Add</button></div></div>
+            </article>
+            <article class="product-card" data-search="enamor all-day comfort sleep nightie women">
+              <div class="product-image"><img src="assets/product-nightie.jpg" alt="Enamor all-day comfort sleep nightie" loading="lazy"><span class="product-tag">New</span></div>
+              <div class="product-info"><div class="product-meta"><span>Enamor</span><span class="rating"><img src="assets/star.svg" alt="" width="14" height="14"> 4.8</span></div><h3>All-Day Comfort Sleep Nightie</h3><div class="product-bottom"><strong>$24.99</strong><button class="add-button" type="button" data-add="All-Day Comfort Sleep Nightie"><img src="assets/shopping-cart.svg" alt="" width="14" height="14"> Add</button></div></div>
+            </article>
+            <article class="product-card" data-search="lux cozi super-soft active track pants joggers">
+              <div class="product-image"><img src="assets/product-track-pants.jpg" alt="Lux Cozi super-soft active track pants" loading="lazy"><span class="product-tag tag-teal">Best seller</span></div>
+              <div class="product-info"><div class="product-meta"><span>Lux Cozi</span><span class="rating"><img src="assets/star.svg" alt="" width="14" height="14"> 4.8</span></div><h3>Super-Soft Active Track Pants</h3><div class="product-bottom"><strong>$19.00</strong><button class="add-button" type="button" data-add="Super-Soft Active Track Pants"><img src="assets/shopping-cart.svg" alt="" width="14" height="14"> Add</button></div></div>
+            </article>
+            <article class="product-card" data-search="dixcy scott interlock soft cotton vests pack">
+              <div class="product-image"><img src="assets/product-vests.jpg" alt="Dixcy Scott interlock soft cotton vests" loading="lazy"><span class="product-tag">New</span></div>
+              <div class="product-info"><div class="product-meta"><span>Dixcy Scott</span><span class="rating"><img src="assets/star.svg" alt="" width="14" height="14"> 4.8</span></div><h3>Interlock Soft Cotton Vests (Pack of 3)</h3><div class="product-bottom"><strong>$12.99</strong><button class="add-button" type="button" data-add="Interlock Soft Cotton Vests"><img src="assets/shopping-cart.svg" alt="" width="14" height="14"> Add</button></div></div>
+            </article>
+          </div>
+          <p class="empty-search" id="empty-search" hidden>No products match that search. Try another term.</p>
+        </div>
+      </section>
+
+      <section class="brands section-shell" id="brands" aria-label="Our partner brands">
+        <p class="brands-heading">Authorized retail partner of leading Indian and international brands</p>
+        <div class="brand-list">
+          <div><strong>Jockey</strong><span>Authentic Innerwear</span></div>
+          <div><strong>Lux Cozi</strong><span>Apna Comfort</span></div>
+          <div><strong>Dixcy Scott</strong><span>Fully Elasticated</span></div>
+          <div><strong>Rupa</strong><span>Daily Premium</span></div>
+          <div><strong>Enamor</strong><span>Unmatched Fit</span></div>
+          <div><strong>Amul Macho</strong><span>Sartorial Freedom</span></div>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="store" aria-labelledby="about-title">
+        <div class="about-image"><img src="assets/store-interior.jpg" alt="Delux Hosieries store with neatly arranged clothing and helpful staff" loading="lazy"></div>
+        <div class="about-copy">
+          <div class="section-heading">
+            <p class="eyebrow">Our heritage story</p>
+            <h2 id="about-title">Serving pure comfort to our community since 1989</h2>
+            <p>Delux Hosieries was built on a simple promise: comfort is non-negotiable. What started as a small premium innerwear outlet has expanded into a family comfort wardrobe hub.</p>
+          </div>
+          <ul class="heritage-list">
+            <li><span class="check-icon"><img src="assets/check.svg" alt="" width="14" height="14"></span><span><strong>Direct Factory Allotment</strong><small>No middle-men markups. We source directly from brands to guarantee authenticity and fair pricing.</small></span></li>
+            <li><span class="check-icon"><img src="assets/check.svg" alt="" width="14" height="14"></span><span><strong>Size Specialist Guidance</strong><small>Our in-store assistants help you discover the fit that feels right.</small></span></li>
+            <li><span class="check-icon"><img src="assets/check.svg" alt="" width="14" height="14"></span><span><strong>Uncompromising Fabric Vetting</strong><small>Every garment is hand-checked for seam stability, stretch recovery, and dye safety.</small></span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="offer-wrap section-shell" id="special-offer" aria-label="Seasonal offer">
+        <div class="offer-banner">
+          <img class="offer-ellipse" src="assets/ellipse.svg" alt="" aria-hidden="true">
+          <div class="offer-copy">
+            <p class="offer-pill">Limited seasonal promo</p>
+            <h2>Save flat 15% off<br>on your bundle purchases</h2>
+            <p>Mix and match any 5 products across Track Pants, Everyday T-Shirts, and Innerwear to activate the custom bundle discount at our checkout counters.</p>
+          </div>
+          <div class="offer-details">
+            <div class="coupon"><span>Use promo code in-store</span><strong>DELUXCOMFORT</strong></div>
+            <p class="offer-expiry"><img src="assets/clock.svg" alt="" width="16" height="16"> Ask in-store for current offer availability</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" aria-labelledby="testimonials-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="eyebrow">Heard in-store &amp; online</p>
+            <h2 id="testimonials-title">What our patrons are saying</h2>
+            <p>Genuine feedback from families that trust Delux Hosieries for their daily comfort essentials.</p>
+          </div>
+          <div class="testimonial-grid">
+            <article class="testimonial-card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>"The fabric of their modal briefs is outstanding. My family has been shopping with Delux Hosieries for over ten years; their quality standard never drops."</blockquote><div class="review-space" aria-hidden="true"></div><div class="review-author"><strong>Rajesh Kumar</strong><span>Loyal Customer since 2014</span></div></article>
+            <article class="testimonial-card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>"Excellent selection of ladies' cotton nighties and track pants. I bought three joggers and they feel super soft even after multiple washes. Strongly recommend!"</blockquote><div class="review-space" aria-hidden="true"></div><div class="review-author"><strong>Priyanka Sharma</strong><span>Verified Purchaser</span></div></article>
+            <article class="testimonial-card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><blockquote>"Being a size guide skeptic, I was happy to find their assistants very helpful. Got the exact Enamor and Jockey fits I needed. Five stars for service!"</blockquote><div class="review-space" aria-hidden="true"></div><div class="review-author"><strong>Amit Patel</strong><span>First-time Buyer</span></div></article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="footer-main section-shell">
+        <div class="footer-brand-column">
+          <a class="brand footer-brand" href="#top"><span class="brand-mark">D</span><span class="brand-name">DELUX HOSIERIES</span></a>
+          <p>Authorized multi-brand retailer specializing in premium innerwear, sleepwear, and loungewear essentials for the entire family. Delivering comfort since 1989.</p>
+          <div class="social-links" aria-label="Social media">
+            <a href="#contact" aria-label="Instagram"><img src="assets/instagram.svg" alt="" width="16" height="16"></a>
+            <a href="#contact" aria-label="Facebook"><img src="assets/facebook.svg" alt="" width="16" height="16"></a>
+            <a href="#contact" aria-label="Twitter"><img src="assets/twitter.svg" alt="" width="16" height="16"></a>
+            <a href="#contact" aria-label="YouTube"><img src="assets/youtube.svg" alt="" width="16" height="16"></a>
+          </div>
+        </div>
+        <div class="footer-link-column"><h2>Departments</h2><a href="#categories">Men's Undergarments</a><a href="#categories">Ladies Undergarments</a><a href="#categories">Loungewear &amp; Nighties</a><a href="#categories">Everyday T-Shirts</a><a href="#categories">Athletic Track Pants</a></div>
+        <div class="footer-link-column"><h2>Partner Brands</h2><a href="#brands">Jockey India</a><a href="#brands">Lux Cozi Essentials</a><a href="#brands">Dixcy Scott Comfort</a><a href="#brands">Rupa Frontline</a><a href="#brands">Enamor Lingerie</a></div>
+        <div class="footer-link-column store-hours"><h2>Store Hours</h2><span>Monday - Saturday</span><strong>9:30 AM - 9:00 PM</strong><span>Sunday</span><strong>11:00 AM - 7:00 PM</strong></div>
+        <address class="contact-card">
+          <h2>Store Locator</h2>
+          <a href="https://maps.google.com/?q=104+Retail+Arcade+Mahatma+Gandhi+Road+Bangalore" target="_blank" rel="noreferrer"><img src="assets/map-pin-footer.svg" alt="" width="16" height="16"><span>104 Retail Arcade, Mahatma Gandhi Road, Bangalore, KA - 560001</span></a>
+          <a href="tel:+918041234567"><img src="assets/phone.svg" alt="" width="16" height="16"><span>+91 80 4123 4567</span></a>
+          <a href="mailto:support@deluxhosieries.com"><img src="assets/mail.svg" alt="" width="16" height="16"><span>support@deluxhosieries.com</span></a>
+        </address>
+      </div>
+      <div class="footer-bottom section-shell"><p>(c) 2026 Delux Hosieries. All rights reserved. Designed with premium family comfort in mind.</p><div><a href="#contact">Privacy Policy</a><a href="#contact">Terms of Service</a><a href="#contact">Returns &amp; Exchanges</a></div></div>
+    </footer>
+
+    <a class="whatsapp-link" href="https://wa.me/919876543210?text=Hello%20Delux%20Hosieries%21%20I%20am%20interested%20in%3A%0AProduct%3A%20%5Bproduct%5D%0ASize%3A%20%5Bsize%5D%0ACould%20you%20please%20share%20availability%2C%20colors%2C%20and%20price%3F%20Thank%20you." target="_blank" rel="noopener noreferrer" aria-label="Chat with Delux Hosieries on WhatsApp" title="Chat on WhatsApp" data-tooltip="Chat on WhatsApp">
+      <img src="assets/phone.svg" alt="" width="25" height="25">
+    </a>
+    <p class="status-message" id="status-message" role="status" aria-live="polite"></p>
+  </body>
+</html>
